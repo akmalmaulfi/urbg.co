@@ -5,7 +5,7 @@ import moneyLogo from "../assets/img/money.png";
 const Services = () => {
   return (
     <section id="services">
-      <div className="px-6 font-raleway pt-16">
+      <div className="px-6 font-raleway pt-12">
         <h3 className="text-2xl lg:text-3xl font-semibold text-slate-800 text-center ">
           WHAT WE OFFER?
         </h3>

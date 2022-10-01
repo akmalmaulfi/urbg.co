@@ -8,13 +8,11 @@ const About = () => {
           </h3>
           <p className="mb-4 text-slate-600 font-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            beatae libero eos accusamus eligendi tempore nihil deleniti, tempora
-            maxime, atque rerum nulla, consectetur soluta sunt optio.
-            Exercitationem, perspiciatis. Impedit, possimus!
+            beatae
           </p>
           <p className="mb-8 text-slate-600 font-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eos
-            aperiam impedit? Asperiores, reprehenderit optio!
+            aperiam impedit?
           </p>
           <a
             href=""

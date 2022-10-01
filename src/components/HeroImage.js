@@ -2,7 +2,7 @@ import img from "../assets/img/heroImage.png";
 
 const HeroImage = () => {
   return (
-    <section id="hero" className="pt-10">
+    <section id="hero" className="pt-[100px]">
       <div className="container">
         <div className="md:flex h-[75vh] lg:h-[90vh] items-center overflow-y-hidden">
           <div className="w-full lg:w-1/2 px-6">
