@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/urbg.co/static/css/main.c3836118.css",
+    "main.js": "/urbg.co/static/js/main.6174ff34.js",
+    "static/media/heroImage.png": "/urbg.co/static/media/heroImage.56882f7254bf6c900319.png",
+    "static/media/bag-2.png": "/urbg.co/static/media/bag-2.7b5321a709c97988873a.png",
+    "static/media/bag-1.png": "/urbg.co/static/media/bag-1.3802e8a2b5ea67306ffc.png",
+    "index.html": "/urbg.co/index.html",
+    "main.c3836118.css.map": "/urbg.co/static/css/main.c3836118.css.map",
+    "main.6174ff34.js.map": "/urbg.co/static/js/main.6174ff34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3836118.css",
+    "static/js/main.6174ff34.js"
+  ]
+}
