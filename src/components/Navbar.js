@@ -19,17 +19,23 @@ const Navbar = () => {
         </div>
         <div
           id="nav-menu"
-          className="hidden md:block absolute md:static md:max-w-full  min-w-[200px] top-full rounded-lg md:rounded-none py-5 md:py-0 right-4 md:bg-transparent shadow-lg md:shadow-none bg-white/80 "
+          className="md:block absolute md:static md:max-w-full  min-w-[200px] top-full rounded-lg md:rounded-none py-5 md:py-0 right-4 md:bg-transparent shadow-lg md:shadow-none bg-white/80 "
         >
-          <ul className="flex box-border">
-            <li className="ml-7">
+          <ul className="md:flex box-border">
+            <li className="ml-7 my-4 md:my-0">
               <a href="#">Home</a>
             </li>
-            <li className="ml-7">
+            <li className="ml-7 my-4 md:my-0">
               <a href="#about">About</a>
             </li>
-            <li className="ml-7">
+            <li className="ml-7 my-4 md:my-0">
               <a href="#testimonials">Testimonials</a>
+            </li>
+            <li className="ml-7 my-4 md:my-0 md:hidden">
+              <a href="#deals">Offer</a>
+            </li>
+            <li className="ml-7 my-4 md:my-0 md:hidden">
+              <a href="#deals">ShopNow</a>
             </li>
           </ul>
         </div>
