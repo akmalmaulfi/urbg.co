@@ -7,9 +7,17 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 
 function App() {
+  const hamburgerToggle = () => {
+    const hamburger = document.querySelector("#hamburger");
+    const navMenu = document.querySelector("#nav-menu");
+
+    hamburger.classList.toggle("hamburger-active");
+    navMenu.classList.toggle("hidden");
+  };
+
   return (
     <>
-      <Navbar />
+      <Navbar hamburgerToggle={() => hamburgerToggle()} />
       <HeroImage />
       <Services />
       <About />

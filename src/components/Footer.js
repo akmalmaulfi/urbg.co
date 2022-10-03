@@ -29,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="pb-8">
+      <div className="p-4">
         <h3 className="text-sm text-slate-500 font-light text-center">
           Copyright &copy; 2022 Akmal Maulfi
         </h3>

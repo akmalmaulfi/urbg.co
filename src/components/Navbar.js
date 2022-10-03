@@ -1,4 +1,4 @@
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <section id="navbar" className="relative">
       <div className="md:flex justify-around md:py-4 py-2 text-slate-800 font-semibold top-0 left-0 right-0 shadow backdrop-blur-md bg-white/30 fixed">
@@ -11,6 +11,7 @@ const Navbar = () => {
             name="hamburger"
             className="block md:hidden right-4 top-0"
             type="button"
+            onClick={props.hamburgerToggle}
           >
             <span className="block w-[30px] h-[2px] my-2 bg-slate-600 transition duration-300 ease-in-out origin-top-left"></span>
             <span className="block w-[30px] h-[2px] my-2 bg-slate-600 transition duration-300 ease-in-out"></span>
@@ -19,7 +20,7 @@ const Navbar = () => {
         </div>
         <div
           id="nav-menu"
-          className="md:block absolute md:static md:max-w-full  min-w-[200px] top-full rounded-lg md:rounded-none py-5 md:py-0 right-4 md:bg-transparent shadow-lg md:shadow-none bg-white/80 "
+          className="hidden md:block absolute md:static md:max-w-full  min-w-[200px] top-full rounded-lg md:rounded-none py-5 md:py-0 right-4 md:bg-transparent shadow-lg md:shadow-none bg-white/80 "
         >
           <ul className="md:flex box-border">
             <li className="ml-7 my-4 md:my-0">

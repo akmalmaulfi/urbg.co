@@ -15,8 +15,8 @@ const ArticleDeals = () => {
               Consectetur, saepe?
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:items-baseline lg:mt-16 px-6">
-            <div className="w-96 h-[550px] py-4 px-4 text-center shadow-lg mb-12 lg:mr-10">
+          <div className="flex flex-col lg:flex-row justify-center items-center lg:items-baseline lg:mt-16 px-0 lg:px-6">
+            <div className="w-96 h-[550px] py-4 px-0 lg:px-4 text-center shadow-lg mb-12 lg:mr-10">
               <h3 className="text-xl font-semibold text-slate-800">
                 Everest Mountain Undertaker Backpack
               </h3>
@@ -31,7 +31,7 @@ const ArticleDeals = () => {
                 Buy Now
               </a>
             </div>
-            <div className="w-96 h-[550px] py-4 px-4 text-center shadow-lg">
+            <div className="w-96 h-[550px] py-4 px-0 lg:px-4 text-center shadow-lg">
               <h3 className="text-xl font-semibold text-slate-800">
                 Canyon Anti-theft Backpack
               </h3>
